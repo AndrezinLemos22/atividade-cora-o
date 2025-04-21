@@ -1,0 +1,46 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    position: relative;
+
+  }
+  
+  
+  .circulo {
+      width: 100px;
+      height: 100px;
+      background-color: #e70303;
+      border-radius: 70%;
+      position: relative;
+      min-height: vh;
+      left: 5vh;
+      top: 13px;
+      
+    }
+    .circulob2{
+        width: 100px;
+      height: 100px;
+      background-color: #e70303;
+      border-radius: 70%;
+      position: relative;
+      min-height: vh;
+      right: 5vh;
+      top: -86px;
+      
+
+
+    }
+    
+    .coracao{
+    transform: rotate(-45deg);
+      background: red;
+      width: 100px;
+      height: 100px;
+      min-height: vh ;
+      position: absolute;
+
+
+    }
